@@ -1,5 +1,11 @@
 = Sunspot::Solr
 
+This gem bundles Sunspot::Solr[https://github.com/outoftime/sunspot/tree/master/sunspot_solr] with
+the JTS[http://sourceforge.net/projects/jts-topo-suite/] Java Tology Suite, allowing the
+use of SpatialRecursivePrefixTreeFieldType for multi-value location searches.
+
+JTS is licensed under the LGPL v2.1.
+
 Sunspot::Solr is a packaged distribution of Solr for use with the
 Sunspot[http://outoftime.github.com/sunspot] and
 Sunspot::Rails[https://github.com/outoftime/sunspot/tree/master/sunspot_rails]

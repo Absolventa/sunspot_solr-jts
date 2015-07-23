@@ -1,5 +1,5 @@
 module Sunspot
   module Solr
-    VERSION = "2.2.0"
+    VERSION = "2.2.0.rc1"
   end
 end

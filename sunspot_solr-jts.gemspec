@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Mat Brown', 'Peer Allan', 'Dmitriy Dzema', 'Benjamin Krause', 'Marcel de Graaf', 'Brandon Keepers', 'Peter Berkenbosch',
                   'Brian Atkinson', 'Tom Coleman', 'Matt Mitchell', 'Nathan Beyer', 'Kieran Topping', 'Nicolas Braem', 'Jeremy Ashkenas',
                   'Dylan Vaughn', 'Brian Durand', 'Sam Granieri', 'Nick Zadrozny', 'Jason Ronallo']
-  s.email       = ["mat@patch.com"]
+  s.email       = ["cz@aegisnet.de"]
   s.homepage    = 'https://github.com/absolventa/sunspot_solr-jts'
   s.summary     = 'Bundled Solr distribution with JTS for Sunspot'
   s.license     = 'MIT'
