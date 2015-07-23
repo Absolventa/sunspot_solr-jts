@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
                   'Brian Atkinson', 'Tom Coleman', 'Matt Mitchell', 'Nathan Beyer', 'Kieran Topping', 'Nicolas Braem', 'Jeremy Ashkenas',
                   'Dylan Vaughn', 'Brian Durand', 'Sam Granieri', 'Nick Zadrozny', 'Jason Ronallo']
   s.email       = ["mat@patch.com"]
-  s.homepage    = 'https://github.com/outoftime/sunspot/tree/master/sunspot_solr'
-  s.summary     = 'Bundled Solr distribution for Sunspot'
+  s.homepage    = 'https://github.com/absolventa/sunspot_solr-jts'
+  s.summary     = 'Bundled Solr distribution with JTS for Sunspot'
   s.license     = 'MIT'
   s.description = <<-TEXT
     Sunspot::Solr provides a bundled Solr distribution for use with Sunspot.
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
     distribution is well suited to development and testing.
   TEXT
 
-  s.rubyforge_project = "sunspot"
+  s.rubyforge_project = "sunspot_solr-jts"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
