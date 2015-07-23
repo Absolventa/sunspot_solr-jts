@@ -4,7 +4,7 @@ rescue LoadError => e
   require 'spec'
 end
 
-require 'sunspot_solr'
+require 'sunspot_solr-jts'
 
 rspec =
   begin
