@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_development_dependency 'rspec', '~> 1.1'
-  s.add_development_dependency 'hanna'
+  s.add_development_dependency "rake", '>= 10'
 
   s.rdoc_options << '--webcvs=http://github.com/outoftime/sunspot/tree/master/%s' <<
                   '--title' << 'Sunspot-Solr - Bundled Solr distribution for Sunspot - API Documentation' <<
